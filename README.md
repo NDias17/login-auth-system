@@ -174,4 +174,4 @@ Este projeto foi desenvolvido com foco em:
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Neil Dias (Front-End) e Marcílio Domingos (Back-End e DB  como parte do processo de aprendizagem em desenvolvimento web.
+Desenvolvido por Neil Dias (Front-End) e Marcílio Domingos (Back-End e data structure)  como parte do processo de aprendizagem em desenvolvimento web.
