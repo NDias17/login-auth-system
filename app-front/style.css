@@ -4,7 +4,6 @@
 }
 
 body{
-    background-color: #000000;
     font-family: Arial, sans-serif;
 }
 
@@ -37,3 +36,20 @@ body{
         ),url('assets/background.jpeg');  
 }
 
+div img{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.side2{
+    width: 451px;
+    height: 618px;
+    margin-right: 94px;
+    margin-left: 150px;
+    background-color: black;
+}
