@@ -7,6 +7,15 @@
     font-family: 'PoppinsRegular';
     src: url(fonts/Poppins-Regular.ttf) format('truetype');
     font-weight: 500;
+    font-size: 21px;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsRegular16';
+    src: url(fonts/Poppins-Regular.ttf) format('truetype');
+    font-weight: 500;
+    font-size: 16px;
     font-style: normal;
 }
 
@@ -26,13 +35,13 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    height: 720px;
+    height: 672px;
     width: 100%;
 }
 
 .side1{
     background-color: #ffffff;
-    height: 720px;
+    height: 100%;
     width: 50%;
     border-radius: 0px 10% 10% 0px;
     margin: 0px;
@@ -50,7 +59,7 @@ body{
         ),url('assets/background.jpeg');  
 }
 
-div img{
+.logo{
     width: 100px;
     height: 100px;
     position: fixed;
@@ -69,6 +78,11 @@ div img{
     font-size: 21px;
     font-family: 'PoppinsRegular'; 
 }
+
+.p-google{
+    color: #1D6B3A;
+    font-size: 16px;
+}
 .side2 span{
     color: #D97300;
     font-family: 'PoppinsRegular'; 
@@ -78,4 +92,68 @@ div img{
     font-family: 'PoppinsMedium'  !important;
 }
 
+.sign-google{
+    width: 298px;
+    height: 55px;
+    background-color: rgba(29, 107, 58, 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 42px;
+    border-radius: 10px;
+    gap: 21px;
+}
 
+.sign-google img{
+    width: 26px;
+    height: 26px;
+}
+
+label{
+    font-family: 'PoppinsRegular16';
+    font-size: 16px;
+    margin-top: 50px;
+    display: block;
+}
+
+input{
+    width: 428px;
+    height: 57px;
+    border-radius: 5px;
+    border: 1px solid #D97300;
+    padding: 0 10px;
+    margin-top: 5px;
+}
+
+input:focus{
+    border-color: rgba(29, 107, 58, 20%);
+    background-color: rgba(29, 107, 58, 20%);
+    outline: none;
+}
+
+.sign-up{
+    margin-top: 80px;
+    display: flex;
+    gap: 150px;
+
+}
+
+.sign-up-option{
+    font-size: 13px;
+    color: #D97300;
+}
+
+.no{
+    color: #8d8d8d;
+}
+
+button{
+    height: 54px;
+    width: 236px;
+    background-color: #1D6B3A;
+    border: none;
+    color: white;
+    font-family: 'PoppinsRegular16';
+    font-size: 16px;
+    border-radius: 10px;
+}
