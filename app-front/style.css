@@ -72,9 +72,8 @@ body{
 .side2{
     width: 451px;
     height: 618px;
-    margin-right: 94px;
+    margin-right: 150px;
     margin-left: 150px;
-    background-color: antiquewhite;
     font-size: 21px;
     font-family: 'PoppinsRegular'; 
 }
@@ -109,6 +108,15 @@ body{
     height: 26px;
 }
 
+.link-google{
+    text-decoration: none;
+}
+
+.sign-google:hover{
+    background-color: rgba(29, 107, 58, 40%);
+    transition: background-color 0.3s ease;
+}
+
 label{
     font-family: 'PoppinsRegular16';
     font-size: 16px;
@@ -138,12 +146,18 @@ input:focus{
 
 }
 
-.sign-up-option{
+.sign-up-option a{
+    text-decoration: none;
     font-size: 13px;
     color: #D97300;
 }
 
+.sign-up-option a:hover{
+    text-decoration: underline;
+}
+
 .no{
+    font-size: 13px;
     color: #8d8d8d;
 }
 
@@ -156,4 +170,11 @@ button{
     font-family: 'PoppinsRegular16';
     font-size: 16px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #1D6B3A;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
