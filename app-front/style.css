@@ -212,3 +212,9 @@ button:hover{
     opacity: 0.8;
     transition: opacity 0.3s ease;
 }
+
+#data-table{
+    border: 1px solid red;
+    width: 50%;
+    margin-top: 20px;
+}
