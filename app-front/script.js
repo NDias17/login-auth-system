@@ -31,7 +31,11 @@ formulario.addEventListener('submit', function(event) {
     celulaUsername.textContent = username;
     celulaPhoneNumber.textContent = phoneNumber;
 
-    
+    //Adicionando a nova linha à tabela
+    novaLinha.appendChild(celulaEmail);
+    novaLinha.appendChild(celulaSenha);
+    novaLinha.appendChild(celulaUsername);
+    novaLinha.appendChild(celulaPhoneNumber);
     /*console.log("Email:", email);
     console.log("Senha:", senha);
     console.log("Username:", username);
