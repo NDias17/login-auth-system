@@ -25,6 +25,12 @@ formulario.addEventListener('submit', function(event) {
     const celulaUsername = document.createElement('td');
     const celulaPhoneNumber = document.createElement('td');
 
+    //Adicionando as células à nova linha
+    celulaEmail.textContent = email;
+    celulaSenha.textContent = senha;
+    celulaUsername.textContent = username;
+    celulaPhoneNumber.textContent = phoneNumber;
+
     
     /*console.log("Email:", email);
     console.log("Senha:", senha);
